@@ -10,6 +10,7 @@ body {
 	/* Выше добавила свою вторую картинку и по два свойства внизу*/
   background-repeat: no-repeat, no-repeat;
   background-position: top center, bottom center;
+	background-size: 100%, 100%;
 }
 /* font-family: 'Lato', sans-serif;
 font-family: 'Lora', serif;             выбранные мной шрифты */
