@@ -10,6 +10,8 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
 }
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;             выбранные мной шрифты */
 
 .container {
   max-width: 928px;
@@ -85,6 +87,10 @@ body {
 .user-image {
   margin: 0 0 32px;
   text-align: center;
+   
+}
+.main_image {
+    border-radius: 230px;
 }
 
 .intro h3,
