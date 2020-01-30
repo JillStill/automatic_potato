@@ -2,13 +2,14 @@ body {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 32px;
   color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
+  background-color: #ffffff;
+  background-image: url("img/hero-bg1.jpg"), url(img/white_blue_gradient.jpg); 
+	/* Выше добавила свою вторую картинку и по два свойства внизу*/
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, bottom center;
 }
 /* font-family: 'Lato', sans-serif;
 font-family: 'Lora', serif;             выбранные мной шрифты */
@@ -49,7 +50,7 @@ font-family: 'Lora', serif;             выбранные мной шрифты
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 540px;
 }
 
 .hero-image .container {
@@ -58,25 +59,27 @@ font-family: 'Lora', serif;             выбранные мной шрифты
 }
 
 .heading {
-  margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  margin: 0 12px 6px;
+  font-family: "Lora", "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
 }
 
 .hero-image p {
-  margin: 0;
+  margin-left: 125px;
+	margin-top: 6px;
   font-size: 30px;
   line-height: 48px;
+	font-family: "Lora", "Times New Roman", serif;
 }
 
 .intro {
-  margin: 0 0 120px;
+  margin: 0 0 70px;
 }
 
 .subheading {
-  margin: 0 0 56px;
+  margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 64px;
   line-height: 80px;
@@ -90,7 +93,7 @@ font-family: 'Lora', serif;             выбранные мной шрифты
    
 }
 .main_image {
-    border-radius: 230px;
+    border-radius: 233px;
 }
 
 .intro h3,
@@ -111,7 +114,7 @@ font-family: 'Lora', serif;             выбранные мной шрифты
 }
 
 .skills-list dt {
-  padding-left: 32px;
+  padding-left: 30px;
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -125,13 +128,13 @@ font-family: 'Lora', serif;             выбранные мной шрифты
 }
 
 .level {
-  margin: 4px 0 16px;
+  margin: 4px 0 19px;
   padding: 0;
   height: 14px;
-  font-size: 0;
+  font-size: 0px;
   background-color: #ffffff;
   border: 1px solid #86c3fa;
-  border-radius: 8px;
+  border-radius: 15px;
 }
 
 .level div {
@@ -142,7 +145,7 @@ font-family: 'Lora', serif;             выбранные мной шрифты
 }
 
 .portfolio {
-  margin: 0 0 120px;
+  margin: 0 0 100px;
 }
 
 .projects {
@@ -164,21 +167,24 @@ font-family: 'Lora', serif;             выбранные мной шрифты
   margin: 0 0 24px;
 }
 
-.button {
-  padding: 6px 20px;
+.portfolio .button {		/* Здесь было .button*/
+  padding: 9px 20px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 6px;
   background-color: #288be6;
   color: #ffffff;
+	margin-bottom: 14px; 
+	margin-left: 22px;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
+  /* здесь было background-color: #00417d;  */
   color: #ffffff;
+	
 }
 
 .page-footer a {
@@ -187,6 +193,7 @@ font-family: 'Lora', serif;             выбранные мной шрифты
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+	
 }
 
 .footer-email {
